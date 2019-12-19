@@ -1,5 +1,5 @@
-FROM quay.io/pires/docker-jre:8u171_alpine_3.8.1
-MAINTAINER pjpires@gmail.com
+FROM openjdk:14-jdk-alpine
+MAINTAINER dashixiong@gmail.com
 
 # Export HTTP & Transport
 EXPOSE 9200 9300
