@@ -1,4 +1,4 @@
-FROM openjdk:14-jdk-alpine
+FROM openjdk:jdk-alpine
 MAINTAINER dashixiong@gmail.com
 
 # Export HTTP & Transport
